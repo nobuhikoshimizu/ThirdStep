@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ThirdStep.exe" version="1.0.0.0" publicKeyToken="998b9fa9ecae42e6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ThirdStep" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ThirdStep.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC マニフェスト オプション
+          Windows のユーザー アカウント制御のレベルを変更するには、
+          requestedExecutionLevel ノードを以下のいずれかで置換します。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         下位互換性を保つためにファイルおよびレジストリの仮想化を使用する場合、
+         requestedExecutionLevel ノードを削除します。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.JVDTLabLib.dll" size="14336">
+      <assemblyIdentity name="AxInterop.JVDTLabLib" version="1.18.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>UxRXw1Tc3j9KzmjWOYkXVypiH/Zzx3uDpjNGyzlprlo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.JVDTLabLib.dll" size="15872">
+      <assemblyIdentity name="Interop.JVDTLabLib" version="1.18.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Wc32/1KJVKoDAS9Fx40JRbOvrEiIPSb/Sg+TGrHUWYc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="424448">
+      <assemblyIdentity name="MySql.Data" version="6.9.9.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>z1JCyodj5/UiC37FF0m11VPrQRt8tszqKfa8jk+yNYc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ThirdStep.exe" size="175056">
+      <assemblyIdentity name="ThirdStep" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qKHQNfBSgMd5Hk50V6hx5+FKlI7UP8p7YqyaU6N+FeQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ico\my.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dCQlIm/hCqtSCtfO8ZyZgnm25oRN2hOWIzaXFfCjmZo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ico\my.rc" size="32">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>O3SaWPAoafmgYR36mjzWwSGzn0+l/Tl6FGrM3ogY494=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ThirdStep.exe.config" size="584">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZRPA5YdhDgfP4iGsSGNjGo6pqP+Kv858bYMOndakbK4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MOUSE-PC1\Nobuhiko" issuerKeyHash="1e0cff782e138ae2c72615d7cea5401816edc504" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XA0O74afL+z/z6war/kz00e3tFkjcpziZpuoUYogMwU=</DigestValue></Reference></SignedInfo><SignatureValue>eITQprdzbzj0sPIxME4jaLsFhlYkOSRTRqXmwENZtXj7Lvq0K/TwHz/gYj/EVMNDkspl8LutvQbAhNx4LQ5ToZnw+ZIHqBPUQlOLxsOUNGNQAV5e9mlg8vmQoZ6cHONlyVWhC01Bnk2/qzeyueo6Tb7nmu+A6zi/1SiYBUNnqjo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wgqshL5WvZ5vf1uOEbyvgzL4g0vCDVfiEcgHsgC3IoB1wltbhfUiPQtLrO2xp2BsImcoTMMSgEJ9gI4CW87JD0qhb60KNflQUW/Mi1MvDKQ2rs3PjTbhChPKWQmbkRjvgHF/sih5NrktVXzjyoGfVFTHuWIrlusXZ/+Mo2Y768k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0533208a51a89b66e29c722359b4b747d333f9af1aaccfffec2f9f86ef0e0d5c" Description="" Url=""><as:assemblyIdentity name="ThirdStep.exe" version="1.0.0.0" publicKeyToken="998b9fa9ecae42e6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MOUSE-PC1\Nobuhiko</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>cblNyvALqYDd6wuKpdTjIA/Qf1O9tHLhmRCwnYCmCiI=</DigestValue></Reference></SignedInfo><SignatureValue>rAAHMdN8WKPIA3kbEgScXaULMrsSNYRNsLKx1atTyO0SUTRUlWBtk80NyJ5mdqyDbNRV02F4NcFNp7BmBfhbt8Y0l2albsjI3cBgFR4eqwsWDxKYqxWFdV7lENMoOa3EP4y+TlsK4A1YylXgdoeyXBbkhJ5yye0jB1Bug/T81LY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wgqshL5WvZ5vf1uOEbyvgzL4g0vCDVfiEcgHsgC3IoB1wltbhfUiPQtLrO2xp2BsImcoTMMSgEJ9gI4CW87JD0qhb60KNflQUW/Mi1MvDKQ2rs3PjTbhChPKWQmbkRjvgHF/sih5NrktVXzjyoGfVFTHuWIrlusXZ/+Mo2Y768k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQHJlfQNfsp4xE05JVbvSPUTANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQATQBPAFUAUwBFAC0AUABDADEAXABOAG8AYgB1AGgAaQBrAG8wHhcNMTcwOTIyMDcyNzIxWhcNMTgwOTIyMTMyNzIxWjAvMS0wKwYDVQQDHiQATQBPAFUAUwBFAC0AUABDADEAXABOAG8AYgB1AGgAaQBrAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMIKrIS+Vr2eb39bjhG8r4My+INLwg1X4hHIB7IAtyKAdcJbW4X1Ij0LS6ztsadgbCJnKEzDEoBCfYCOAlvOyQ9KoW+tCjX5UFFvzItTLwykNq7Nz4024QoTylkJm5EY74Bxf7IoeTa5LVV848qBn1RUx7liK5brF2f/jKNmO+vJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAwZhEsZQPnhoaQL2wigUgxirTjGh1dGUJXVMZ9W5g4gYl1ipX7gFm3GmUVY63jgdh+5k5yP9d8d1NquTzr0kD9WDkywvzw0qQjcShNi9ZUKvpOJoscyLE18n4DusWaYIyT0eggjUEYJ8vb8IMZWUW04kTon7H1q7PVP4KQmz8eZI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
