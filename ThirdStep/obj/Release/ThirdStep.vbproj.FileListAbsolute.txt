@@ -19,3 +19,10 @@ c:\users\nobuhiko\documents\visual studio 2015\Projects\ThirdStep\ThirdStep\obj\
 c:\users\nobuhiko\documents\visual studio 2015\Projects\ThirdStep\ThirdStep\obj\Release\ThirdStep.exe
 c:\users\nobuhiko\documents\visual studio 2015\Projects\ThirdStep\ThirdStep\obj\Release\ThirdStep.xml
 c:\users\nobuhiko\documents\visual studio 2015\Projects\ThirdStep\ThirdStep\obj\Release\ThirdStep.pdb
+C:\Users\Nobuhiko\Documents\GitHub\ThirdStep\ThirdStep\bin\Release\ThirdStep.exe.config
+C:\Users\Nobuhiko\Documents\GitHub\ThirdStep\ThirdStep\obj\Release\Interop.JVDTLabLib.dll
+C:\Users\Nobuhiko\Documents\GitHub\ThirdStep\ThirdStep\obj\Release\AxInterop.JVDTLabLib.dll
+C:\Users\Nobuhiko\Documents\GitHub\ThirdStep\ThirdStep\obj\Release\ThirdStep.vbproj.ResolveComReference.cache
+C:\Users\Nobuhiko\Documents\GitHub\ThirdStep\ThirdStep\obj\Release\ThirdStep.exe
+C:\Users\Nobuhiko\Documents\GitHub\ThirdStep\ThirdStep\obj\Release\ThirdStep.xml
+C:\Users\Nobuhiko\Documents\GitHub\ThirdStep\ThirdStep\obj\Release\ThirdStep.pdb

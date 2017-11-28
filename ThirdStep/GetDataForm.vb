@@ -2,7 +2,7 @@
 
 Public Class getData
 
-    Private lDownloadCount As Long ''JVOpen:総ダウロードファイル数
+    Private lDownloadCount As Long ''JVOpen:総ダウロードファイル数''
     Private JVOpenFlg As Boolean ''JVOpen 状態フラグ Opne 時:Ture
     Private strFromTime As String = "" '' 引数 JVOpen:データ提供日付
 
